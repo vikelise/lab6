@@ -2,7 +2,7 @@
 using namespace std;
 
 // функция для ввода элементов массива
-void inputArray(int arr[], int n) {
+void inputArray(int arr[], int n) {//fourth commit in main
     for(int i=0; i<n; i++) {
         cout << "Введите элемент массива: ";
         cin >> arr[i];
@@ -17,11 +17,11 @@ void mergeArrays(int arr1[], int n1, int arr2[], int n2, int arr3[]) {
 //second commit in main  if(arr1[i] < arr2[j]) {
             arr3[k++] = arr1[i++];
         } else {
-            arr3[k++] = arr2[j++];//third commit in main(prioritet main)
+            arr3[k++] = arr2[j++];//third commit in main(prioritet main***)
         }
-    }//third commit in main(same prioritet with second_branch)
+    }//third commit in main(same prioritet with second_branch***)
     while(i < n1) {
-        arr3[k++] = arr1[i++];//third commit in main(prioritet second_branch)
+        arr3[k++] = arr1[i++];//third commit in main(prioritet second_branch***)
     }
     while(j < n2) {
         arr3[k++] = arr2[j++];
