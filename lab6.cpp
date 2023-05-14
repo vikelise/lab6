@@ -51,6 +51,6 @@ int main() {
     mergeArrays(arr1, n1, arr2, n2, arr3);
 //first commit in second_branch
     printArray(arr3, n1+n2);
-
+//fourth commit in second_branch
     return 0;
 }
