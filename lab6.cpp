@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream>//first commit in main
 using namespace std;
 
 // функция для ввода элементов массива
