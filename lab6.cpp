@@ -40,11 +40,11 @@ void printArray(int arr[], int n) {
 
 int main() {
     int arr1[100], arr2[100], arr3[200], n1, n2;
-
+//third commit in first branch(prioritet first_branch)
     cout << "Введите количество элементов первого массива: ";
-    cin >> n1;
+    cin >> n1;//third commit in first branch(same prioritet)
     inputArray(arr1, n1);
-
+//third commit in first_branch (second_branch prioritet)
     cout << "Введите количество элементов второго массива: ";
     cin >> n2;
     inputArray(arr2, n2);
