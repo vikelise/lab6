@@ -49,7 +49,7 @@ int main() {
     inputArray(arr2, n2);
 
     mergeArrays(arr1, n1, arr2, n2, arr3);
-
+//first commit in second_branch
     printArray(arr3, n1+n2);
 
     return 0;
