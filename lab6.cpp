@@ -1,6 +1,6 @@
 #include <iostream>//first commit in main
 using namespace std;
-
+//five commit in main
 // функция для ввода элементов массива
 void inputArray(int arr[], int n) {//fourth commit in main
     for(int i=0; i<n; i++) {
